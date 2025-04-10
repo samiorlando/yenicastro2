@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>myCast</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/myCast.min.css" type="text/css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+</head>
+<body>
+
+
+
+<div class="myCast" id="stream2"></div>
+<script src="js/main.js"></script>
+<script>
+
+$("#stream2").myCast({
+    URL: "https://stream.zeno.fm/kztq0yc7rs8uv",
+    version: "icecast",
+    mount_point: "wttrxavefwzuv",
+    bg: "green",
+    accent: "amber",
+    lang: "es",
+    blur: true,
+    blur_opacity: 0.16 	
+});
+</script>
+
+
+</body>
+</html>
